@@ -3,6 +3,7 @@
 .clean-block.clean-hero::before{
     background-image: url(/assets/img/assignment/homepage-hero.jpg);
     background-size: cover;
+    width: 1440px;
 }
 /* Blog main image  */
   .post-image{
