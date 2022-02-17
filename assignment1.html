@@ -68,7 +68,15 @@
                         <h3>Lorem Ipsum dolor</h3>
                         <div class="post-info"><span>By John Smith</span><span>Jan 27, 2018</span></div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <figure class="figure"><img class="rounded img-fluid figure-img" src="assets/img/assignment/blog-1a.jpg" alt="description">
+                        <figure class="figure">
+                            <picture>
+                                <source media="(max-width: 799px)" srcset="assets/img/assignment/blog-1a-small.jpg" type="image/jpg">
+                                <source media="(max-width: 799px)" srcset="ssets/img/assignment/blog-1a-small.webp" type="image/webp">
+                                <source media="(min-width: 800px)" srcset="assets/img/assignment/blog-1a.jpg" type="image/jpg">
+                                <source media="(min-width: 800px)" srcset="assets/img/assignment/blog-1a.webp" type="image/webp">
+                                <img class="rounded img-fluid figure-img" src="assets/img/assignment/blog-1a.jpg" alt="description">
+                              </picture>
+                           
                             <figcaption class="figure-caption">Lorem ipsum dolor</figcaption>
                         </figure>
                         <h4>Lorem Ipsum</h4>
